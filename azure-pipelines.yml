@@ -25,5 +25,4 @@ steps:
 - script: |
     sudo curl -sS https://getcomposer.org/installer | php
     sudo mv composer.phar /usr/local/bin/composer
-    sudo composer install --no-interaction --prefer-dist
   displayName: 'composer install'
